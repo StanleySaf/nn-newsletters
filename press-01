@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+<title>Narconon Newsletter Press</title>
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body>
+<div id="page">
+<H2 class="header1">Narconon Newsletter Press</H2>
+<form action="file:///volumes/Internet_jobs/i00008%20Narconon%20Email%20Campaign/-Press/startPress.js" method="post">
+	<fieldset>
+	<legend>Submit the Job</legend>
+	<label for="article1">Article 1:</label><br />
+	<input type="text" name="article1" required><br />
+	<select name="category">
+    	<option value="blog">Blog</option>
+    	<option value="druginfo">Drug Information</option>
+    </select><br />
+
+
+	<label for="article2">Article 2:</label><br />
+	<input type="text" name="article2" required><br />
+	<select name="category">
+    	<option value="blog">Blog</option>
+    	<option value="druginfo">Drug Information</option>
+    </select></br>
+
+	<label for="article3">Article 3:</label><br />
+	<input type="text" name="article3" /><br />
+	<select name="category">
+    	<option value="blog">Blog</option>
+    	<option value="druginfo">Drug Information</option>
+    </select><br />
+
+	<input type="submit" value="sign up" />
+	</fieldset>	
+</form>
+</div>
+<div class="tip"> 
+<p>Please enter a link for each article you want to publish.</p>
+</div>
+<div class="hidden"> 
+<p>All 3 articles should have entery in order to produce newsltter.</p>
+</div>
+<script src="js/startPress.js"></script>
+
+
+
+</body>
